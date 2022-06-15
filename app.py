@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import streamlit as st
 #from pydrive.auth import GoogleAuth
 #from pydrive.drive import GoogleDrive
 
@@ -7,8 +8,6 @@ import os
 #drive = GoogleDrive(gauth)
 
 money_first_day = 750000
-
-import streamlit as st
 
 # Add a title and intro text
 st.title('Summary results by year')
